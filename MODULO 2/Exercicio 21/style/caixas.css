@@ -1,0 +1,43 @@
+h1{
+    display:block;
+
+    background-image: linear-gradient(-45deg, rgb(90, 70, 44), rgb(156, 92, 13));
+    height: 300px;
+    width: 300px;
+    
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: blueviolet; */
+
+    border: 10px solid blueviolet;
+
+    padding: 10px;
+
+    /* padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px; 
+    padding-left: 1px; 
+    padding: 1px 1px 1px 1px; 
+    Quatro valores = determinando o padding de cada lado,
+    Dois valores = determina um valorp top e bottom e outro p left e right
+     */
+    padding: 1px;
+
+    /* margin: auto; */
+    margin: 100px auto 100px auto;
+    
+    /* outline-width: 10px;
+    outline: dashed;
+    outline-color: aquamarine; */
+
+    outline: 5px dashed aquamarine;
+}
+
+a{
+    display: block;
+    /* border-width: 0.8em;
+    *border-style: solid;   solid, dashed, dotted, double, groove 
+    border-color: red; */
+
+    border: 0.8em solid red;
+}

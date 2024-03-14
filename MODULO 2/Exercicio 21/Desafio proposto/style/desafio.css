@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+    :root {
+    --cor0: #f89500;
+
+}
+
+
+
+body{
+    background-color: rgb(236, 241, 203);
+    color: white;
+    text-indent: 2em;
+    margin: 0;
+    /* background-color: var(--cor0); */
+
+}
+
+
+.header{
+    background-image: linear-gradient(to top, rgb(6, 80, 6), rgb(96, 214, 96));
+    box-sizing: content-box;
+    margin: auto;
+    border: 5px solid rgb(16, 148, 49);
+    height: min-content;
+    padding-bottom: 0.3em;
+    box-shadow: none;
+}
+
+.head-tittle{
+    color: white;
+    font-size: 3em;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 5px 5px 5px green;
+    
+}
+
+.head-subtittle{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(3, 48, 3);
+}
+.header-links {
+    box-sizing: border-box;
+    margin: 2%;
+    padding: 0.4em;
+    text-shadow: 5px 5px 5px rgb(1, 14, 1);
+    color: white;
+}
+
+.header-links:hover {
+    background-color: rgb(79, 214, 119);
+    border-radius: 10px;
+}
+
+
+
+.main-principal{
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+    box-shadow: 1px 1px 3px black;
+    
+}
+
+.main-tittle {
+    background-image: linear-gradient(to right, rgba(19, 151, 19, 0.815), rgb(251, 255, 251));
+    color: rgb(0, 109, 0);
+    padding-left: 20%;
+    box-shadow: 1px 1px 3px black;
+}
+
+
+.main-subtittle {
+    background-image: linear-gradient(to right, rgba(19, 151, 19, 0.815), rgb(251, 255, 251));
+    color: rgb(0, 109, 0);
+    padding-left: 20%;
+    box-shadow: 1px 1px 3px black;
+}
+
+.sec-extra{
+    display: block;
+    box-sizing: content-box;
+    background-color: rgba(6, 175, 6, 0.61);
+    margin: auto;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    width: 90%;
+    text-align: justify;
+    padding: 0px 0px 5px 0px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.548);
+}
+
+.extra-tittle{
+    background-color: rgb(5, 63, 5);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin: auto;
+    padding: 3px;
+}
+
+.sec-extra > p{
+    padding: 10px;
+}
+
+p > a {
+    background-color: rgba(61, 224, 61, 0.377);
+    color: rgb(7, 82, 0);
+}
+picture{
+    width: 50%;
+    text-align: center;
+    padding-right: 15%;
+}
+/* cursor: pointer; */
+iframe{
+    display: block;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+body > p{
+    text-align: justify;
+}

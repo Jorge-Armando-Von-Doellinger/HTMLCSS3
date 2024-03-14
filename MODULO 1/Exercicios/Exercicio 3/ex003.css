@@ -1,0 +1,11 @@
+img {
+    background-color: rgb(255, 255, 255);
+}
+img#img2{
+    background-color: rgb(235, 133, 0);
+    margin: 100px 10px 300px;
+    padding: 25px;
+}
+body{
+    background-color: aqua;
+}

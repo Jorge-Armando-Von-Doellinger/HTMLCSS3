@@ -1,0 +1,77 @@
+		OBS
+1029384756zxSAwq
+Abertura de tag <>
+Fechamento de tag </>
+./ Mesma pagina
+../ pagina anterior
+--------------------------
+	TAGS CONHECIDAS EM ORDEM DE PARENTESCO
+
+<article> </article> - Elemento pai de section
+<section> </section> - elemento pai de div e filho de article
+<header> </header> - (Nem pai nem filho de section, mas pode coloca-la tanto dentro de section)
+<div> </div> - (filho)
+<h(1-6)> </h(1-6)>
+<p> </p> - (filho)
+----------------------------------
+
+		TAGS ESPECIAIS
+&copy; = © Copyrigth
+&reg; = Nao copiei ainda, mas é régua
+&lt; = <
+&gt; = >
+---------------------------------
+EMOJIS:
+&#x1F596; 🖖
+&#X1F913; 🤓
+----------------
+		HTML HEAD
+link:fivicon.ico
+link:css
+
+---------------
+		Body
+
+<h1> Exemplo de titulo </h1> Adiciona titulos
+(h1 pai de h2, etc. Hierarquia de Titulos)
+<p> Exemplo de paragrafo </p> Adiciona paragrafos
+<img src="foto.png" alt='Exemplo de foto'
+<hr> - Linha horizontal
+
+-----------------------------------------------
+		Formatações
+
+<b> ... </b> (nao semantica/sem significado p html) - Negrito
+<strong> ... </strong> (Com semantica) - Negrito
+<i> ... </i> (Nao Semantica) - Italico
+<em< ... </em> (Semantica) - Italico
+
+<mark> ... </mark> - () - Adiciona uma marcação no texto (Comando marca texto)
+<big> ... </big> - (Ta morrendo) Deixa maior
+<Small> ... </Small> - Deixa pequeno
+<del> ... </del> - Risco no meio da frase
+
+<sup> ... </sup> Deixa em cima, assim = 1²
+<sub> ... </sub> Deixa em baixo da Letra como H2O (Nao demonstrável)
+<ins> ... </ins> Risco embaixo da palavra para marcar
+<code> ... </code> Letras do mesmo tamanho
+
+<pre> ... </pre> Deixa o texto igual ao código, com indentação e etc
+<q> ... </q> Citação simples
+<blockquote cite=""> ... </blockquote>
+<abbr title=""> ... </abbr> - Adiciona explicação a algo
+
+<bdo dir"rtl//ltr"> ... </bdo> - Deixa o texto invertido
+<ol type="" start=""> ... </ol> - Adiciona uma lista organizada (1,A,a,I,i)
+<ul type=""> ... </ul> - Adiciona uma lista sem ordem (square, circle, disc)
+<li> </li> - Elementos da lista
+
+<dl> Grupo de descrição e definicão </dl>
+<dt> Titulo de dl </dt>
+<dd> Conteudo </dd>
+<u> Sublinhado </u> 
+
+<a href="link" target="" rel=""> Adiciona links clicáveis </a>
+<a href='arquivo' dowload='locar/arquivo' type='' </a>
+[chat gpt]<span style='color: (Cor)'> cor texto .... </span>
+---------------------------------------------------

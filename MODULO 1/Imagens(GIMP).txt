@@ -1,0 +1,3 @@
+JPEG = Nao transparente, mas mais comprimida (Compactação como caracteristica!)
+PNG = Pode ser transparente e é mais bonito (Maior qualidade)
+GIF =

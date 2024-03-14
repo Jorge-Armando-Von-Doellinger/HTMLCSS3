@@ -1,0 +1,53 @@
+body{
+    background-image: url(Images/download.png);
+}
+    
+
+h1{
+
+    color: rgb(174, 0, 255);
+    text-align: center;
+    margin: auto;
+    font: normal 50px italic;
+    border-radius: 200px;
+    padding: 10px;
+}
+h2{
+
+    color: red;
+    width: 1000px;
+    text-align: center;
+    border-radius: 100px;
+    margin: auto;
+    padding: 10px;
+}
+p{
+    color: aliceblue;
+   border-radius: 100px;
+   margin: auto;
+   text-align: center;
+   height: 50px;
+   width: 800px;
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
+}
+div{
+    transform: translateY(10%);
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    width: 1300px;
+    height: 500px;
+    border-radius: 40px;
+    margin: auto;
+    
+
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+}
+img{
+    text-align: center;
+}

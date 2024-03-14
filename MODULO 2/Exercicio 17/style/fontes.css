@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* * medidas abosulatas (cada tv(ex) tem um tamnho e pode ser relativo. 1cm em uma tv gigante é quase nada)
+    *cm, mm, in, px, pt, pc 
+    
+    *(recomendado: "px" E/OU "em")
+
+    *medidas relativas 
+    *em(Altura maiuscula da fonte), ex(Altura X da fonte), rem(Em relativo ao body), vw(viewport), vh(altura do vw), % 
+    
+    *16px geralmente = 1em
+    
+    *text-decoration: underline; */
+
+    font-size: 1em; 
+    }
+    
+    h1{
+    /* ShortHand font
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-style: italic; */
+    
+    font: italic bolder 3em Georgia;
+}
+
+h2{
+    /* font wheght -> font-size -> Font-family */
+    font: bold 2em georgia;
+}

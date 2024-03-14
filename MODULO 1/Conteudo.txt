@@ -1,0 +1,4 @@
+HTML = Conteudo
+CSS = Design
+FrontEnd = client-side devolloper ( desenvolvedor do lado  do cliente )
+BackEnd = server-side

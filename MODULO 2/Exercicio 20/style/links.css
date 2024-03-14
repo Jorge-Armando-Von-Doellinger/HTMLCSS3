@@ -1,0 +1,55 @@
+/*
+* SELETORES PERSONALIZADOS: 
+*# # = id
+* . = class
+* :pseudo-class
+* :: pseudo-element
+* > childreen 
+*/
+
+/* 
+*height altura
+*width largura 
+*/
+
+
+a {
+    color:  red;
+    text-decoration: none;
+    font-weight: bold ;
+    /* generico */
+    
+}
+
+a:visited {
+    color: rgb(241, 0, 0);
+    /* Visito ou já visitei o site  */
+
+}
+
+a:hover{
+    text-decoration: underline; 
+    /* Quando passo o mouse em cima */
+}
+
+a:active{ 
+    color: blueviolet;
+    /* Quando é clicado */
+}
+
+.especial{
+    background-color: aquamarine;
+    
+}
+
+.especial::before{
+    padding-right: 5px;
+    content: " ⇒ ";
+    color: rgba(141, 141, 255, 0.842);
+}
+
+.especial::after{
+    padding-left: 5px;
+    content: " ⇐ ";
+    color: rgba(141, 141, 245, 0.842);
+}

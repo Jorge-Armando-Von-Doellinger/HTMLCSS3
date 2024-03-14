@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Midia em HTML5</title>
+
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir seu site em varios dispositivos diferentes ou simplesmente aumente e dimnua o tamanho do seu navegador!</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagem/pequeno.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagem/medio.png" type="image/png">
+    <img src="imagem/grande.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo aúdios</h1>
+    <p> Estou aprendendo a pôr áudio no meu site</p>
+   <!-- <audio src="media/fire.mp3" controls autoplay></audio>-->
+    <!-- MP3 WAV OGG--> <!-- type='audio/mpeg/ wav/ ogg'-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/fire.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1> Reproduzindo videos!</h1>
+    <p> Aprendendo a inserir videos</p>
+    <video src="video/video.mp4" controls></video> <!-- Mp4 m4v ufm ogv -->
+
+    <h2> Video alocado em outro servidor!</h2>
+    <!-- <iframe width='600px' height="300px" src="https://youtu.be/3hng-hmSv2Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    -->
+    <video>
+        <source sizes="" srcset="">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=GCHKY49YIfAgk3TV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </video>
+</body>
+</html>

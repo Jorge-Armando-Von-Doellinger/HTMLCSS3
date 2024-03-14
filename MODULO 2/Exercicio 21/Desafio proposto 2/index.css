@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: droid;
+    src: url(assets/fontes/idroid.otf);
+}
+:root {
+    --cor0:#133812;
+    --cor1:#00560D;
+    --cor2:#29AD00;
+    --cor3:#298410;
+    --cor4:#22910057;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor4);
+}
+
+a.externo::after{
+    content: "\00A0\1F517";
+}
+
+header{
+    background-color: var(--cor3);
+    background-image: linear-gradient(to bottom,  rgb(35, 255, 65), var(--cor0));
+    min-height: 125px;
+    min-width: 300;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 30px;
+}
+
+header > h1 {
+    width: 100%;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px #133812;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+header > p {   
+    display: block;
+    max-width: 500px;
+    font-size: 1.2em;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+nav{
+    background-color: var(--cor0);
+    padding: 10px;
+
+}
+
+
+nav > a{
+    background-color: transparent;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    color: rgb(0, 255, 64);
+    width: 90%;
+}
+nav > a:hover{
+    background-color: #29AD00;
+    padding: 10px;
+    text-decoration: underline;
+    color: var(--cor0);
+    border-radius: 5px;
+}
+
+article{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 20px;
+}
+
+/* .video > iframe {
+    display: block;
+    max-width: 80%;
+    max-height: 70%;
+    margin: auto;
+} */
+
+.video {
+    background-color: #133812;
+    margin: 0 -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 96%;
+    height: 96%;
+}
+
+.bugDroid{
+    max-width: 350px;
+}
+
+main{
+    padding: 20px;
+    min-width: 300px;
+    max-width: 800px;
+    text-shadow: 3px 3px 3px #00000048;
+    
+}
+main p {
+    text-align: justify;
+    text-indent: 2em;
+    margin: 15px 0;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+main strong{
+    color: var(--cor1);
+}
+
+a{
+    font-weight: bold;
+    color: var(--cor0);
+    padding: 2px 6px;
+    text-decoration: none;
+    background-color: #2984106c;
+}
+a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+
+main  h1{
+    font-family: droid;
+    background-color: #298410;
+    background-image: linear-gradient(to right, #298410, #ffffff);
+    color: var(--cor0);
+    padding: 2px;
+    font-weight: bolder;
+}
+main h2{
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    color: var(--cor1);
+    font-size: 1.3em;
+    text-indent: 10px;
+    font-family: droid;
+    line-height: 1.3em;
+    font-weight: normal;
+}
+
+main img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+aside{
+    display: block;
+    background-color: #2984102d;
+    width: 80%;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.329);
+}
+aside h1{
+    background-color: #00560D;
+
+    font-size: 1.5em;
+    padding: 10px 0px;
+    text-indent: 1em ;
+    color: #ffffff;
+    border-radius: 15px 15px 0 0 ;
+    margin: -10px -10px 0 -10px;
+}
+aside p {
+    text-indent: 2em;
+    padding: 10px;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0';
+    /* padding: 5%; */
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    border-radius: 0px;
+    background-color: rgb(24, 77, 0);
+    color: rgb(231, 231, 231);
+    padding: 5px;
+}
+footer p{
+    text-align: center;
+    font-size: 0.8em;
+}
+footer a{
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    text-decoration-color: white ;
+}
+
+

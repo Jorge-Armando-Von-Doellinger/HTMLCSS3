@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+    /* em HTML id = "#"
+    class = "." */
+
+    /* id sobrepõe class e h1 */
+body{
+    background-color: bisque;
+    font-family: Georgia,  serif;
+}
+h1#principal{
+    color: rgba(248, 158, 22, 0.979);
+    background-color: aliceblue;
+    box-shadow: 2px 3px 1px 0px rgb(202, 179, 150);
+}
+h2{
+    font: Arial 1.5em serif;
+}
+.basico{
+    color: rgb(20, 116, 226);
+}
+
+.intermediario{
+    color: rgb(31, 196, 72);
+}
+
+.avancado{
+    color: rgba(255, 0, 0, 0.781);
+}
+
+.destaque{
+    background-color: rgb(238, 163, 71);
+}
+
+.principal{
+    color: rgb(234, 0, 255);
+}

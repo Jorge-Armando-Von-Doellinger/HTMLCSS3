@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=".ico" type="image/x-icon">
+    <title> Gradiente em CSS </title>
+    
+    <style>
+        * { /* Configurações globais do css */
+            height: 100%; /* Para o linear gradient não ficar pequeno e ficar zebrado!*/
+        }
+        body{
+            background-color: rgba(77, 163, 238, 0.808);
+            background-image: linear-gradient(to right, #2968E9a8 10%, #FFD081a8 20%, #FD7D00a8 30%, #FD0768a8 40%, #E00E95a8, #762093a8);
+            background-attachment: fixed;
+            
+            /* to top(HORIZONTAL) 
+             to left (ESQUEDA) to Botton (Para baixo) */
+            
+            /* deg = graus, tambem pode botar -(graus))deg */
+            /* background-image: radial-gradient(circle, #2968E9a8, #FFD081a8, #FD7D00a8, #FD0768a8, #E00E95a8, #762093a8) */
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+    <script src=".js"></script>
+</body>
+</html>
