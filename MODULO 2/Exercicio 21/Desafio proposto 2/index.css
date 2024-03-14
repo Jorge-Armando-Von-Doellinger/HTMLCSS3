@@ -28,7 +28,7 @@ a.externo::after{
 header{
     background-color: var(--cor3);
     background-image: linear-gradient(to bottom,  rgb(35, 255, 65), var(--cor0));
-    min-height: 125px;
+    min-height: 140px;
     min-width: 300;
     text-align: center;
     color: white;
@@ -45,12 +45,12 @@ header > h1 {
     font-weight: normal;
 }
 
-header > p {   
-    display: block;
+header > p { 
     max-width: 500px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding: 10px;
     padding-bottom: 20px;
+    text-align: center;
     margin: auto;
 }
 
