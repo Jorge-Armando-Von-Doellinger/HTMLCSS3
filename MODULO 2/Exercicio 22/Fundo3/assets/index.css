@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+}
+
+div.block {
+    background-image: url(img/wallpaper003.jpg);
+    border: 2px solid purple;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+div#b1{
+    background-position: left top;
+
+}
+
+div#b2{
+    background-position: left center;
+}
+
+div#b3{
+    background-position: right bottom;
+}
+
+div#b4{
+    background-position: center center;
+}
