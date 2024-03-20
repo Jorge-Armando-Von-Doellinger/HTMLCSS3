@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href=".ico" type="image/x-icon">
-    <title> </title>
+    <title> Fundo fixo de tela</title>
     <link rel="stylesheet" href=".css">
     <style>
         body{
-            background-color: black;
+            height: 100vh;
+            /* background-color: black;
             background-image: url(../img/wallpaper002.jpg);
             background-repeat: repeat-y;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;
+            text-align: center; */
             /*Colocar um tamanho fixo(px, em, etc)
             background-size: contain(100% de vh), cover, auto */
+
+            /* whorthand - background
+            color > image > position < repeat > [size] > attachment */
+            background:  black url(../img/wallpaper002.jpg) center center no-repeat  fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
-            text-align: center;
             margin: auto;
             border-radius: 20px;
             border: 1px solid black;
+            text-align: justify;
         }
     </style>
 </head>
